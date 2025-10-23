@@ -1,0 +1,101 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    min-height: 10vh;
+    background-color: #024950 !important; /* Navbar color */
+}
+
+nav .navbar-brand,
+nav .btn {
+    color:#964734 !important; /* Ensure text & buttons are visible on dark background */
+}
+
+header {
+    min-height: 80vh;
+    background-color: #afdde5;  /* Header color */
+    color: #964734;
+    text-align: center;
+    padding: 2rem 0;
+    font-size: xx-large;
+}
+
+footer {
+    min-height: 10vh;
+    background-color: #024950;  /* Footer color */
+    color: #964734;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer a {
+    color: #964734;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.para {
+    font-size: larger;
+}
+
+.login-bg {
+    background-color: #afdde5;
+    color: #003135;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* Login box style */
+.col-md-4.p-4.rounded.shadow {
+  background-color: #0fa4af !important; /* box background */
+  color: #003135; /* text inside box */
+}
+
+/* Form label and link colors inside the box */
+.col-md-4.p-4.rounded.shadow label.form-label,
+.col-md-4.p-4.rounded.shadow a {
+  color: #003135;
+}
+
+/* Input fields background and text color */
+.col-md-4.p-4.rounded.shadow input.form-control {
+  background-color: #afdde5;
+  color: #003135;
+  border: none;
+}
+
+/* Input focus state */
+.col-md-4.p-4.rounded.shadow input.form-control:focus {
+  background-color: #d4f0fa; /* lighter blue when focused */
+  border: 1px solid #024950;
+  box-shadow: none;
+  color: #003135;
+}
+
+/* Button style */
+.col-md-4.p-4.rounded.shadow button.btn {
+  background-color: #afdde5;
+  color: #003135;
+  border: none;
+}
+
+.col-md-4.p-4.rounded.shadow button.btn:hover {
+  background-color: #9bd0db;
+  color: #003135;
+}
